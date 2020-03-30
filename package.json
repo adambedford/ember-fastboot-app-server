@@ -31,6 +31,6 @@
     "fastboot-s3-notifier": "^0.1.2"
   },
   "engines": {
-    "node": "6.* || 8.* || >= 10.*"
+    "node": "6.* || 8.*"
   }
 }
