@@ -1,6 +1,6 @@
 {
   "name": "ember-fastboot-app-server",
-  "version": "0.1.1",
+  "version": "0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/he9qi/ember-fastboot-app-server.git"
+    "url": "https://github.com/adambedford/ember-fastboot-app-server.git"
   },
   "keywords": [
     "ember",
@@ -17,20 +17,20 @@
     "server",
     "deploy"
   ],
-  "author": "Qi He <qhe@heyook.com>",
+  "author": "Adam Bedford, Qi He",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/he9qi/ember-fastboot-app-server/issues"
+    "url": "https://github.com/adambedford/ember-fastboot-app-server/issues"
   },
-  "homepage": "https://github.com/he9qi/ember-fastboot-app-server",
+  "homepage": "https://github.com/adambedford/ember-fastboot-app-server",
   "dependencies": {
     "aws-sdk": "^2.3.4",
-    "fastboot-app-server": "^1.1.0",
-    "fastboot-redis-cache": "git://github.com/he9qi/fastboot-redis-cache.git#allow-redis-url",
-    "fastboot-s3-downloader": "git://github.com/he9qi/fastboot-s3-downloader.git#9f5e7ec7",
-    "fastboot-s3-notifier": "0.1.2"
+    "fastboot-app-server": "^2",
+    "fastboot-redis-cache": "^0.2.0",
+    "fastboot-s3-downloader": "^0.2.2",
+    "fastboot-s3-notifier": "^0.1.2"
   },
   "engines": {
-    "node": "4.2.x"
+    "node": "6.* || 8.* || >= 10.*"
   }
 }
