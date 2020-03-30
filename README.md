@@ -2,7 +2,7 @@
 
 > A FastBoot app server based on [FastBoot AWS][1].
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/he9qi/ember-fastboot-app-server)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/adambedford/ember-fastboot-app-server)
 
 ## environment variables
 
