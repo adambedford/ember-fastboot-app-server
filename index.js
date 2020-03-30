@@ -8,7 +8,6 @@ const S3Notifier = require('fastboot-s3-notifier');
 const REDIS_HOST   = process.env.FASTBOOT_REDIS_HOST;
 const REDIS_PORT   = process.env.FASTBOOT_REDIS_PORT;
 const REDIS_EXPIRY = process.env.FASTBOOT_REDIS_EXPIRY;
-const REDIS_URL    = process.env.FASTBOOT_REDIS_URL;
 
 const S3_REGION = process.env.FASTBOOT_S3_REGION;
 const S3_KEY = process.env.FASTBOOT_S3_KEY;
@@ -44,7 +43,6 @@ if (REDIS_HOST || REDIS_PORT || REDIS_URL) {
   cache = new RedisCache({
     host: REDIS_HOST,
     port: REDIS_PORT,
-    url: REDIS_URL,
     expiration: REDIS_EXPIRY
   });
 } else {
