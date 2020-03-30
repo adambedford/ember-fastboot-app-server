@@ -43,15 +43,13 @@
     },
     "FASTBOOT_REDIS_HOST": {
       "description": "Fastboot Redis host.",
-      "value": ""
+      "value": "",
+      "required": false
     },
     "FASTBOOT_REDIS_PORT": {
       "description": "Fastboot Redis port.",
-      "value": ""
-    },
-    "FASTBOOT_REDIS_URL": {
-      "description": "Fastboot Redis url.",
-      "value": ""
+      "value": "",
+      "required": false
     },
     "FASTBOOT_REDIS_EXPIRY": {
       "description": "Fastboot Redis expiration.",
