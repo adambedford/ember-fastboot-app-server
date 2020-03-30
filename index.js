@@ -39,7 +39,7 @@ const notifier = new S3Notifier({
 });
 
 let cache;
-if (REDIS_HOST || REDIS_PORT || REDIS_URL) {
+if (REDIS_HOST || REDIS_PORT) {
   cache = new RedisCache({
     host: REDIS_HOST,
     port: REDIS_PORT,
